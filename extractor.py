@@ -269,7 +269,7 @@ def parse_args():
 
 
 def main():
-    print('Appearance Preset Extractor', SCRIPT_VERSION, 'by cartitolaire')
+    print('Appearance Preset Extractor', SCRIPT_VERSION,)
 
     # Interactive CLI
     print("\nWelcome to the Appearance Preset Extractor!")
