@@ -7,6 +7,8 @@ Extracts presets from .vars
 # Usage
 Double click the .exe
 Follow the prompts. You can do a single file, multiple files seperated by space or point it at a folder containing many files
+If the .exe isnt in the vam root folder it will just make some folders to put all lthe stuff it extracts. If you are in the folder it will place them accordingly
+
 
 
 
