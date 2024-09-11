@@ -279,8 +279,8 @@ def main():
     
     # Check if the input is a directory
     if os.path.isdir(input_path):
-        # If it's a directory, get all .var and .json files in it
-        input_globs = [os.path.join(input_path, '*.var'), os.path.join(input_path, '*.json')]
+        # If it's a directory, get all .var and .json files recursively
+        input_globs = [os.path.join(input_path, '**', '*.var'), os.path.join(input_path, '**', '*.json')]
     else:
         # If it's not a directory, split the input as before
         input_globs = input_path.split()
@@ -332,6 +332,7 @@ def main():
 
     print("\nExtraction complete!")
     input("Press Enter to exit...")
-
+    
 if __name__ == "__main__":
     main()
+
